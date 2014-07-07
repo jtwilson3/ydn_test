@@ -1,3 +1,3 @@
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :yahoo, 'dj0yJmk9MWFDVHdDR3JhQ1lCJmQ9WVdrOVVFTjJSa042TkRRbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jYg--', '21e1659aaf92cffda8e66f5aab1608318f2ca04c'
+  provider :yahoo, 'dj0yJmk9VFYxUG9NSHdKYzVrJmQ9WVdrOWIwUjBielJxTkdVbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD02NQ--', '13fd689a53da856127fc437338b915abd22c6c96'
 end
