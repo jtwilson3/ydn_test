@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   root 'pages#test'
 
-  match "/auth/yahoo/callback" => "sessions#create"
+  match "/auth/yahoo/callback" => "sessions#create", :via => [:get], :as => 'sessions_create'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
